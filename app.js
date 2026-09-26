@@ -9,5 +9,6 @@ export function render(spec) {
   const sums = view.sums || [];
   const hits = view.hits || [];
   return { sums: sums, hits: hits, count: sums.length, hit_count: hits.length,
-           biggest: view.biggest || 0, window: shape.window, value_count: values.length };
+           biggest: view.biggest === undefined || view.biggest === null ? 0 : view.biggest,
+           window: shape.window, value_count: values.length };
 }
