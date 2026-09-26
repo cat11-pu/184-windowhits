@@ -1,0 +1,6 @@
+{
+  "window_error_code": "E_BAD_WINDOW",
+  "window": 3,
+  "min_sum": 10,
+  "values": [4, 6, 3, 9, 2, 8, 5]
+}
